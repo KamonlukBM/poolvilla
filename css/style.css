@@ -953,7 +953,7 @@ table td {
     background-color: #f98b30;
     color: #fff;
     padding: 7px;
-    font-size: 12px;
+    font-size: 15px;
     border-radius: 10px;
     text-align: center;
     border: 0px;
@@ -1162,7 +1162,7 @@ input.emptytwo {
 .butincre.value {
     color: #818181;
     font-size: 18px;
-    width: 55%;
+    width: 50%;
     border: 0px;
     font-weight: 300;
 }
@@ -1270,6 +1270,10 @@ input.emptytwo {
 
 .text-filter {
     font-size: 18px;
+}
+
+.text-filter2 {
+    font-size: 20px;
 }
 
 .text-bold {
@@ -2160,6 +2164,12 @@ a.fa-chevron-right:before {
 .title-booking-detail {
     border-bottom: 2px solid #f98b30;
     color: #f98b30;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.title-booking {
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
 }

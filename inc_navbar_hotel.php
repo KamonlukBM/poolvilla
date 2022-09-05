@@ -22,7 +22,7 @@
                                 </div>
                             </li>
                             <li class="nav-link-hotel-nav">
-                                <a href="list_property1.php">
+                                <a href="list_property2.php">
                                     <button class="dropbtn profile"><i class="fas fa-home text-nav-hotel text-orange"></i><br><span class="text-tiny">Add new Property</span></button></a>
                                     <div class="dropdown-content profile hotel">
                                     </div>

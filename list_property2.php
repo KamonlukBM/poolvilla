@@ -118,9 +118,17 @@
                     </div>
                 </div>
                 <div class="text-filter text-grey text-start text-bold mt-5">PROPERTY ADDRESS</div>
-                <div class="col-sm-4">
-                       <div class="">
+                <div class="row">
+                       <div class="col-sm-4">
                           <label for="exampleFormControlInput3" class="form-label text-tiny text-grey">Address</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="....">
+                        </div>
+                        <div class="col-sm-4">
+                          <label for="exampleFormControlInput3" class="form-label text-tiny text-grey">Latitude</label>
+                          <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="....">
+                        </div>
+                        <div class="col-sm-4">
+                          <label for="exampleFormControlInput3" class="form-label text-tiny text-grey">Longitude</label>
                           <input type="email" class="form-control" id="exampleFormControlInput3" placeholder="....">
                         </div>
                     </div>

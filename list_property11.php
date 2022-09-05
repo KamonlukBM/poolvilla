@@ -34,7 +34,58 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row  mt-3">
+                                <div class="row  mt-4">
+                                    <div class="text-medium text-grey text-bold text-red">Master Bedroom</div>
+                                    <div class="col-sm-4">
+                                        <div class="text-tiny text-grey text-bold ">Occupancy</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-tiny text-grey text-bold">Guests pay</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2"><i class="far fa-user me-2"></i>X 2</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2">THB 1,100.00</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2"><i class="far fa-user me-2"></i>X 1</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2">THB 990.00</div>
+                                    </div>
+                                </div>
+                                <div class="row  mt-4">
+                                    <div class="text-medium text-grey text-bold text-red">Second Bedroom</div>
+                                    <div class="col-sm-4">
+                                        <div class="text-tiny text-grey text-bold ">Occupancy</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-tiny text-grey text-bold">Guests pay</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2"><i class="far fa-user me-2"></i>X 2</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2">THB 1,100.00</div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2"><i class="far fa-user me-2"></i>X 1</div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="text-Medium text-grey mt-2">THB 990.00</div>
+                                    </div>
+                                </div>
+                                <div class="row  mt-4">
+                                    <div class="text-medium text-grey text-bold text-red">Third Bedroom</div>
                                     <div class="col-sm-4">
                                         <div class="text-tiny text-grey text-bold ">Occupancy</div>
                                     </div>
