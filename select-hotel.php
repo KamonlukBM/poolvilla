@@ -59,6 +59,7 @@
                                 <div class="col-4">
                                     <div class="row g-2">
                                         <label for="inputPassword" class="col-4 text-tiny text-orange">Adult</label>
+
                                         <div class="col-8 mt-0">
                                             <div class="input-group input-number">
                                                 <button class="btn sub" type="button" id="sub">-</button>
@@ -70,12 +71,12 @@
                                 </div>
                                 <div class="col-4">
                                     <div class="row g-2">
-                                        <label for="inputPassword" class="col-4 text-tiny text-orange text-center">Kid</label>
+                                        <label for="inputPassword" class="col-4 text-tiny text-orange">Kid</label>
                                         <div class="col-8 mt-0">
                                             <div class="input-group input-number">
-                                                <button class="btn sub" type="button" id="sub">-</button>
-                                                <input class="input-number border-0 text-center field " placeholder="" type="text" id="1" value="1">
-                                                <button class="btn add" type="button" id="add">+</button>
+                                                <button class="btn sub2" type="button" id="sub2">-</button>
+                                                <input class="input-number border-0 text-center field2 " placeholder="" type="text" id="1" value="1">
+                                                <button class="btn add2" type="button" id="add2">+</button>
                                             </div>
                                         </div>
                                     </div>
@@ -85,9 +86,9 @@
                                         <label for="inputPassword" class="col-4 text-tiny text-orange">Room</label>
                                         <div class="col-8 mt-0">
                                             <div class="input-group input-number">
-                                                <button class="btn sub" type="button" id="sub">-</button>
-                                                <input class="input-number border-0 text-center field " placeholder="" type="text" id="1" value="1">
-                                                <button class="btn add" type="button" id="add">+</button>
+                                                <button class="btn sub3" type="button" id="sub3">-</button>
+                                                <input class="input-number border-0 text-center field3 " placeholder="" type="text" id="1" value="1">
+                                                <button class="btn add3" type="button" id="add3">+</button>
                                             </div>
                                         </div>
                                     </div>
@@ -723,6 +724,7 @@
 </script>
 
 
+
 <!-- ปุ่มเพิ่ม-ลด  -->
 <script>
     var unit = 1;
@@ -747,11 +749,45 @@
 </script>
 
 <script>
-    $(function() {
-        $("#datepicker").datepicker();
+    var unit2 = 1;
+    var total;
+    // if user changes value in field
+    $('.field2').change(function() {
+        unit2 = this.value;
     });
+    $('.add2').click(function() {
+        unit2++;
+        var $input = $(this).prevUntil('.sub2');
+        $input.val(unit2);
+        unit2 = unit2;
+    });
+    $('.sub2').click(function() {
+        if (unit2 > 0) {
+            unit2--;
+            var $input = $(this).nextUntil('.add2');
+            $input.val(unit2);
+        }
+    });
+</script>
 
-    $(function() {
-        $("#datepicker2").datepicker();
+<script>
+    var unit3 = 1;
+    var total;
+    // if user changes value in field
+    $('.field3').change(function() {
+        unit3 = this.value;
+    });
+    $('.add3').click(function() {
+        unit3++;
+        var $input = $(this).prevUntil('.sub3');
+        $input.val(unit3);
+        unit3 = unit3;
+    });
+    $('.sub3').click(function() {
+        if (unit3 > 0) {
+            unit3--;
+            var $input = $(this).nextUntil('.add3');
+            $input.val(unit3);
+        }
     });
 </script>

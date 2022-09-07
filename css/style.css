@@ -228,7 +228,11 @@ input.empty {
 }
 
 .btn.add,
-.btn.sub {
+.btn.sub,
+.btn.add2,
+.btn.sub2,
+.btn.add3,
+.btn.sub3 {
     font-size: 24px;
     font-weight: 500;
     color: #f98b30;
@@ -5277,9 +5281,10 @@ a.next {
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
-    .nav-link{
+    .nav-link {
         padding: 0 5px !important;
     }
+
     .banner {
         position: relative;
         color: black;
@@ -5966,12 +5971,13 @@ a.next {
 
 @media screen and (min-width:1024px) and (max-width:1279px) {
 
-    
+
     .input-group.input-number {
         margin-left: 0;
         width: 90%;
         padding: 0;
     }
+
     .nav-item.hotel {
         width: 35%;
     }
@@ -6249,9 +6255,10 @@ a.next {
         height: 25px;
     }
 
-    .bg-white-form{
+    .bg-white-form {
         padding-right: 3px;
     }
+
     .bg-orange {
         background-color: #f98b30;
         padding: 10px 20px;
@@ -6442,7 +6449,8 @@ a.next {
         width: 100%;
         margin-left: 2px;
     }
-    .bg-white-form{
+
+    .bg-white-form {
         padding-right: 4px;
     }
 }
@@ -6477,11 +6485,13 @@ a.next {
         width: 40px;
         height: 26px;
     }
+
     .input-group.input-number {
         width: 100%;
         margin-left: 2px;
     }
-    .bg-white-form{
+
+    .bg-white-form {
         padding-right: 4px;
     }
 }
@@ -6497,11 +6507,13 @@ a.next {
         width: 40px;
         height: 26px;
     }
+
     .input-group.input-number {
         width: 100%;
         margin-left: 2px;
     }
-    .bg-white-form{
+
+    .bg-white-form {
         padding-right: 6px;
     }
 }
@@ -6517,7 +6529,8 @@ a.next {
         width: 40px;
         height: 26px;
     }
-    .bg-white-form{
+
+    .bg-white-form {
         padding-right: 6px;
     }
 }
